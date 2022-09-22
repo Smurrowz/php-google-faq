@@ -22,22 +22,26 @@ $faqs = [
     ]
   ],
   [
-    "title" => "Perché il mio account è associato a un paese?",
+    "title" => "Perché il mio account è associato a un paese ?",
     "paragraph" =>
     [
-      "<p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
-        <ol>
-          <li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
-            <ul class=\"sub-list\">
-              <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
-              <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
-            </ul>
+      "<p>
+        Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:
+      </p>
+      <ol class=\"list\">
+        <li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
+          <ul class=\"sub-list\">
+            <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
+            <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
+          </ul>
           </li>  
           <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li>
-        </ol>
-        <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>",
+      </ol>
+      <p>
+        Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.
+      </p>",
     ],
-  ],  
+  ],
   [
     "title" => "Stabilire il paese associato al tuo account",
     "paragraph" =>
@@ -73,13 +77,19 @@ $faqs = [
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
   <header>
     <div class="logo">
-      <img src="./asset/Google_2015_logo.svg.png" alt="Google Logo">
+      <img class="img-logo" src="./asset/Google_2015_logo.svg.png" alt="Google Logo">
 
       <div> Privacy e Termini </div>
     </div>
@@ -98,7 +108,7 @@ $faqs = [
         <li class="link">
           <a href="#"> Tecnologie </a>
         </li>
-        <li class="link">
+        <li class="link active">
           <a href="#"> Domande frequenti </a>
         </li>
       </ul>
